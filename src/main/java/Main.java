@@ -17,6 +17,6 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class Main extends HttpServlet {
     @Override protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().print("Hello from Java with Jenkins and GIT!");
+        resp.getWriter().print("Hello from Java with Jenkins and GIT with locally modified but not pushed yet!");
     }
 }
