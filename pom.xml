@@ -33,7 +33,6 @@
         <artifactId>heroku-maven-plugin</artifactId>
         <version>1.1.2</version>
         <configuration>
-          <appName>maven-git-jenkins-heroku-sampleApp</appName>
           <includes>
             <include>target/dependency/newrelic-agent.jar</include>
           </includes>
